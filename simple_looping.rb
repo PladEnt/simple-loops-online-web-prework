@@ -13,7 +13,7 @@ def loop_iterator(number_of_times)
     7.times do
       puts phrase
     end
-  end
+  break
 end
 
 def times_iterator(number_of_times)
